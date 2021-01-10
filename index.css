@@ -14,8 +14,6 @@ body {
 .curving-header {
   -webkit-border-top-left-radius: 20%;
   -webkit-border-top-right-radius: 20%;
-  -moz-border-radius-topleft: 20%;
-  -moz-border-radius-topright: 20%;
   border-top-left-radius: 20%;
   border-top-right-radius: 20%;
   background-color: white;
@@ -26,6 +24,12 @@ body {
   text-align: center;
   padding-top: 48px;
   color: slateblue;
+}
+
+.quote {
+  display: none;
+  text-align: left;
+  margin: 32px 30%;
 }
 
 .get_message {
@@ -48,4 +52,9 @@ body {
 .btn-container {
   text-align: center;
   padding-top: 48px;
+}
+
+footer {
+  margin-top: 128px;
+  text-align: right;
 }
