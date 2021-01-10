@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica, "Work Sans", sans-serif;
+}
+
+.title {
+  background-color: slateblue;
+  color: whitesmoke;
+  font-size: 200%;
+  font-family: cursive;
+  text-align: center;
+  line-height: 300%;
+}
+
+.curving-header {
+  -webkit-border-top-left-radius: 20%;
+  -webkit-border-top-right-radius: 20%;
+  -moz-border-radius-topleft: 20%;
+  -moz-border-radius-topright: 20%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  background-color: white;
+  margin-top: -40px;
+}
+
+.instructions {
+  text-align: center;
+  padding-top: 48px;
+  color: slateblue;
+}
+
+.get_message {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: slateblue;
+  font-size: 16px;
+  height: 48px;
+  width: 150px;
+  border-radius: 10%;
+  border: 1px silver solid;
+  cursor: pointer;
+}
+
+.get_message:hover {
+  background-color: indigo;
+}
+
+.btn-container {
+  text-align: center;
+  padding-top: 48px;
+}
