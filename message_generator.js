@@ -28,4 +28,3 @@ const displayMessage = (quote, author) => {
      console.log(quote);
      console.log(author);
 } 
-
