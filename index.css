@@ -28,8 +28,9 @@ body {
 
 .quote {
   display: none;
-  text-align: left;
-  margin: 32px 30%;
+  text-align: center;
+  margin: 0 30%;
+  padding: 48px 0 32px 0;
 }
 
 .get_message {

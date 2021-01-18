@@ -9,43 +9,25 @@
   <body>
     <!--simple header section-->
     <header>
-      <h1 class="title">Get inspired</h1>
+      <h1 class="title">Get some nonsense</h1>
     </header>
     <!--Instructions-->
     <div class="curving-header">
-      <h2 class="instructions">Click the button for inspiration</h2>
+      <h2 class="instructions" id="instructions">
+        Click the button for random nonsense
+      </h2>
       <!--area where message will appear-->
       <h3 class="quote" id="quote"></h3>
       <!--Button for generating quote-->
       <div class="btn-container">
-        <button
-          class="get_message"
-          id="get_message"
-          type="submit"
-          onclick="displayMessage(retrieveQOD())"
-        >
+        <button class="get_message" id="get_message" type="submit">
+          <!--onclick="displayMessage()"-->
+
           Get message
         </button>
       </div>
     </div>
-    <footer>
-      <!--Credit to they said so authors of API as per request on their website-->
-      <span style="z-index: 50; font-size: 0.9em; font-weight: bold">
-        <img
-          src="https://theysaidso.com/branding/theysaidso.png"
-          height="20"
-          width="20"
-          alt="theysaidso.com"
-        />
-        <a
-          href="https://theysaidso.com"
-          title="Powered by quotes from theysaidso.com"
-          style="color: #ccc; margin-left: 4px; vertical-align: middle"
-        >
-          They Said So®
-        </a>
-      </span>
-    </footer>
+    <footer></footer>
     <!--Call JS script-->
     <script src="message_generator.js"></script>
   </body>
