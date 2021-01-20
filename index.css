@@ -1,43 +1,54 @@
 body {
-  font-family: Helvetica, "Work Sans", sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .title {
-  background-color: slateblue;
+  background-color: rgb(54, 38, 160);
   color: whitesmoke;
   font-size: 200%;
-  font-family: cursive;
   text-align: center;
-  line-height: 300%;
+  line-height: 700%;
+  z-index: 1;
 }
 
 .curving-header {
-  -webkit-border-top-left-radius: 20%;
-  -webkit-border-top-right-radius: 20%;
-  border-top-left-radius: 20%;
-  border-top-right-radius: 20%;
-  background-color: white;
-  margin-top: -40px;
+  border-radius: 20%;
+  margin-top: -80px;
+  background-image: url("./images/blue_guitar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .instructions {
   text-align: center;
-  padding-top: 48px;
-  color: slateblue;
+  padding-top: 32px;
+  color: rgb(75, 8, 36);
+  display: inline-flex;
 }
 
-.quote {
+.light-text {
+  color: whitesmoke;
+}
+
+.song {
   display: none;
-  text-align: center;
+  text-align: left;
   margin: 0 30%;
   padding: 48px 0 32px 0;
+  white-space: pre;
 }
 
 .get_message {
   text-align: center;
   text-decoration: none;
   color: white;
-  background-color: slateblue;
+  background-color: rgb(54, 38, 160);
   font-size: 16px;
   height: 48px;
   width: 150px;
